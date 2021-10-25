@@ -19,4 +19,9 @@ target_link_libraries(example3 ${MPI_C_LIBRARIES})
 add_executable(example4 example4.c)
 target_link_libraries(example4 ${MPI_C_LIBRARIES})
 
+add_executable(lab1 lab1.c)
+target_link_libraries(lab1 ${MPI_C_LIBRARIES})
+
+add_executable(lab1_generator lab1_generator.c)
+
 
